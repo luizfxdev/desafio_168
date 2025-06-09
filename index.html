@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O Enigma do Dragão Dorminhoco</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>O Enigma do Dragão Dorminhoco</h1>
+      <p class="description">Descubra os números palíndromos para passar pelo dragão!</p>
+
+      <div class="input-group">
+        <div class="input-container">
+          <label for="start">Início:</label>
+          <input type="number" id="start" placeholder="Digite o número inicial" />
+        </div>
+        <div class="input-container">
+          <label for="end">Fim:</label>
+          <input type="number" id="end" placeholder="Digite o número final" />
+        </div>
+      </div>
+
+      <div class="button-group">
+        <button id="decipher" style="--clr: #00ff7f"><span>DECIFRAR</span><i></i></button>
+        <button id="return" style="--clr: #e1d153"><span>RETORNAR</span><i></i></button>
+      </div>
+
+      <div class="result-container">
+        <h2>Resultado:</h2>
+        <div id="result" class="result-box"></div>
+        <div id="calculation" class="calculation-box"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
